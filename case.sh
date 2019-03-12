@@ -1,5 +1,5 @@
 #!/bin/bash
-# demo of the case statement
+# demo of the case statement.
 clear
 echo "MAIN MENU"
 echo "========="
