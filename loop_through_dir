@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# a script looping through all the files in certain dir and find the files containing certain pattern of text. 
+
+for filename in /home/bitnami/apps/wordpress/htdocs/wp-content/themes/structurepress-pt/*; do
+        cat $filename | grep "portfolio__meta"
+        echo $filename
+done
