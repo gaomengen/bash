@@ -1,7 +1,5 @@
 #!/bin/bash
-
 # example usage: . del_dir_under_dir.sh "node_modules"
-
 
 # read the dir name needs to be deleted
 $1
