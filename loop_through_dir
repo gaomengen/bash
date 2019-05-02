@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # a script looping through all the files in certain dir and find the files containing certain pattern of text. 
-# testing gcp repo mirroring.
+# testing gcp repo mirroring. 
+# to github from cloud shell.
 
 for filename in /home/bitnami/apps/wordpress/htdocs/wp-content/themes/structurepress-pt/*; do
         cat $filename | grep "portfolio__meta"
